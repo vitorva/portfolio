@@ -37,7 +37,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <p>Songify</p>
         </RouterLink>
         <RouterLink to="/uon-vs-code">
-          <p>UON VS Code</p>
+          <p>UON VSCode</p>
         </RouterLink>
       </div>
     </div>
@@ -93,7 +93,12 @@ footer {
 
 
 .box-top {
+  padding-left: 10px;
   min-height: 200px;
+}
+
+.box-bottom {
+  padding-left: 10px;
 }
 
 .box-top::before {
@@ -116,6 +121,7 @@ footer {
   padding-bottom: 2px;
   padding-left: 10px;
   margin-bottom: 50px;
+  margin-left: 10px;
 }
 
 @media (min-width: 1024px) {
