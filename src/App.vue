@@ -30,14 +30,14 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/journeys">
           <p>Journeys</p>
         </RouterLink>
+        <RouterLink to="/uon-vs-code">
+          <p>UON VSCode</p>
+        </RouterLink>
         <RouterLink to="/infogames">
           <p>InfoGames</p>
         </RouterLink>
         <RouterLink to="/songify">
           <p>Songify</p>
-        </RouterLink>
-        <RouterLink to="/uon-vs-code">
-          <p>UON VSCode</p>
         </RouterLink>
       </div>
     </div>
