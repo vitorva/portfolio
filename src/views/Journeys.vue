@@ -12,8 +12,6 @@
         <div>
             <a class="link" href="https://gitlab.com/pdg-journeys/journeys"><img alt="Vue logo" class="logo"
                     src="@/assets/gitlab.svg" width="25" height="25" /></a>
-            <a class="link" href="https://www.myjourneys.ch/"><img alt="Vue logo" class="logo" src="@/assets/links.svg"
-                    width="25" height="25" /></a>
         </div>
     </div>
 
