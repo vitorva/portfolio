@@ -1,85 +1,163 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <RouterLink to="/">
+      <div><img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="60" height="60" /></div>
+    </RouterLink>
+    <div>
+      <a href="mailto: vitor.vazafonso@gmail.com"><img alt="Vue logo" class="logo" src="@/assets/mail.svg" width="30"
+          height="30" /></a>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it !!!" />
+      <a href="https://github.com/vitorva"><img alt="Vue logo" class="logo" src="@/assets/github.svg" width="30"
+          height="30" /></a>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
   </header>
 
-  <RouterView />
+  <div class="content">
+
+    <div class="box box-top">
+      <RouterView />
+    </div>
+
+    <div class="box box-bottom">
+      <h1>Projects</h1>
+
+      <div class="project-title">
+        <RouterLink to="/journeys">
+          <p>Journeys</p>
+        </RouterLink>
+        <RouterLink to="/uon-vs-code">
+          <p>UON VSCode</p>
+        </RouterLink>
+        <RouterLink to="/songify">
+          <p>Songify</p>
+        </RouterLink>
+        <RouterLink to="/infogames">
+          <p>InfoGames</p>
+        </RouterLink>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>VITOR VAZ AFONSO ©2022</p>
+  </footer>
 </template>
 
+
+
 <style scoped>
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-size: larger;
+  color: darkgrey
+}
+
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  margin-right: 20px;
 }
 
-nav {
+.content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
   width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+  border-color: #d9d9d9b2;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+footer {
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+
+.box-top {
+  padding-left: 10px;
+  min-height: 200px;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+.box-bottom {
+  padding-left: 10px;
 }
 
-nav a:first-of-type {
-  border: 0;
+.box-top::before {
+  border-top: solid #d9d9d9b2;
+  content: '';
+  display: block;
+  margin-right: 35%;
+}
+
+.box-bottom::after {
+  border-bottom: solid #d9d9d9b2;
+  content: '';
+  display: block;
+  margin-left: 35%;
+}
+
+.project-title {
+  border-left: solid #d9d9d9b2;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
 }
 
 @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+
+  footer {
+    margin-right: 3%;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  .content {
+    flex-wrap: nowrap;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  .box {
+    width: 45%;
+    height: 400px;
   }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
+  .box-top {
+    border-top: solid;
+    border-color: #d9d9d9b2;
+  }
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+
+  .box-bottom {
+    border-bottom: solid;
+    border-color: #d9d9d9b2;
+    min-height: 400px;
+  }
+
+
+  .box-top::before {
+    content: none;
+  }
+
+  .box-bottom::after {
+    content: none;
   }
 }
 </style>
