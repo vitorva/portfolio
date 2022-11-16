@@ -36,6 +36,12 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/songify">
           <p>Songify</p>
         </RouterLink>
+        <RouterLink to="/restApi">
+          <p>Rest API</p>
+        </RouterLink>
+        <RouterLink to="/infogames">
+          <p>Infogames</p>
+        </RouterLink>
       </div>
     </div>
   </div>

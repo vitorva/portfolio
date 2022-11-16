@@ -1,10 +1,9 @@
 <template>
     <h1>Journeys</h1>
     <div class="project">
-        <p>
-            It was a team project made in school. Journeys is a web application made for trip creation using points of
-            interest around
-            Switzerland. </p>
+        <p>Journeys is a web application made for trip creation using points of interest around Switzerland. </p>
+
+        <p>It was a team project made in school.</p>
 
         <p class="technos"><a>MapLibre · &nbspReact · &nbspMaterial UI · &nbspSpring Boot · &nbspMaven · &nbspNeo4j
                 · &nbspGCP · &nbspCI / CD</a></p>

@@ -4,6 +4,7 @@ import Infogames from "../views/Infogames.vue";
 import Songify from "../views/Songify.vue";
 import UON from "../views/Uon.vue";
 import Journeys from "../views/Journeys.vue";
+import RestApi from "../views/RestApi.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -34,6 +35,11 @@ const router = createRouter({
       path: "/journeys",
       name: "journeys",
       component: Journeys,
+    },
+    {
+      path: "/restApi",
+      name: "restApi",
+      component: RestApi,
     },
   ],
 });
