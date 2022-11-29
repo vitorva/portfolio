@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Presentation from "../views/Presentation.vue";
-import Infogames from "../views/Infogames.vue";
+import EasyToolz from "../views/EasyToolz.vue";
 import Songify from "../views/Songify.vue";
 import UON from "../views/Uon.vue";
 import Journeys from "../views/Journeys.vue";
@@ -17,9 +17,9 @@ const router = createRouter({
       component: Presentation,
     },
     {
-      path: "/infogames",
-      name: "infogames",
-      component: Infogames,
+      path: "/easy-toolz",
+      name: "easyToolz",
+      component: EasyToolz,
     },
     {
       path: "/songify",
