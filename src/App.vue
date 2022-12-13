@@ -8,6 +8,13 @@ import { RouterLink, RouterView } from 'vue-router'
       <div><img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="60" height="60" /></div>
     </RouterLink>
     <div>
+
+
+      <a href="public/cv.pdf"><img alt="Vue logo" class="logo" src="@/assets/cv.svg" width="30" height="30" /></a>
+
+      <a href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"><img alt="Vue logo" class="logo"
+          src="@/assets/linkedin.svg" width="30" height="30" /></a>
+
       <a href="mailto: vitor.vazafonso@gmail.com"><img alt="Vue logo" class="logo" src="@/assets/mail.svg" width="30"
           height="30" /></a>
 
@@ -60,7 +67,6 @@ a:active {
 }
 
 a:hover {
-  font-size: larger;
   color: darkgrey
 }
 
