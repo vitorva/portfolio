@@ -10,7 +10,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <div>
 
 
-      <a href="public/cv.pdf"><img alt="Vue logo" class="logo" src="@/assets/cv.svg" width="30" height="30" /></a>
+      <a href="CV_VitorVazAfonso.pdf"><img alt="Vue logo" class="logo" src="@/assets/cv.svg" width="30"
+          height="30" /></a>
 
       <a href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"><img alt="Vue logo" class="logo"
           src="@/assets/linkedin.svg" width="30" height="30" /></a>
@@ -51,7 +52,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
 
   <footer>
-    <p>VITOR VAZ AFONSO ©2022</p>
+    <p>Vitor Vaz Afonso © 2022</p>
   </footer>
 </template>
 
@@ -67,7 +68,7 @@ a:active {
 }
 
 a:hover {
-  color: darkgrey
+  color: rgb(107, 107, 107);
 }
 
 header {
@@ -100,7 +101,7 @@ footer {
 
 .box-top {
   padding-left: 10px;
-  min-height: 200px;
+  height: 300px;
 }
 
 .box-bottom {
