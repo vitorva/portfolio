@@ -102,21 +102,21 @@ footer {
 }
 
 .box-top::before {
-  border-top: solid #d9d9d9b2;
+  border-top: solid #d9d9d9b2 1px;
   content: '';
   display: block;
   margin-right: 35%;
 }
 
 .box-bottom::after {
-  border-bottom: solid #d9d9d9b2;
+  border-bottom: solid #d9d9d9b2 1px;
   content: '';
   display: block;
   margin-left: 35%;
 }
 
 .project-title {
-  border-left: solid #d9d9d9b2;
+  border-left: solid #d9d9d9b2 1px;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 10px;
@@ -140,14 +140,12 @@ footer {
   }
 
   .box-top {
-    border-top: solid;
-    border-color: #d9d9d9b2;
+    border-top: solid #d9d9d9b2 1px;
   }
 
 
   .box-bottom {
-    border-bottom: solid;
-    border-color: #d9d9d9b2;
+    border-bottom: solid #d9d9d9b2 1px;
     min-height: 400px;
   }
 

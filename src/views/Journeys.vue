@@ -30,7 +30,12 @@
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
-    border-left: solid #d9d9d9b2;
+    /*border-left: solid #d9d9d9b2;*/
+    background-color: #3b4252;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    color: #d8dee9;
+    border-radius: 10px;
+    transition: opacity 500ms;
 }
 
 .technos {
