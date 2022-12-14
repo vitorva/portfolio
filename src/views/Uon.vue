@@ -9,11 +9,19 @@
 
         <p class="technos"><a>VS Code · &nbspAPI · &nbspANTLR · &nbspTypescript · &nbspMocha · &nbspCI / CD</a></p>
 
-        <div>
-            <a class="link" href="https://github.com/vitorva/vscode-uon"><img alt="Vue logo" class="logo"
-                    src="@/assets/github.svg" width="25" height="25" /></a>
-            <a class="link" href="https://marketplace.visualstudio.com/items?itemName=vitorva.vscode-uon"><img
-                    alt="Vue logo" class="logo" src="@/assets/vscode.svg" width="22" height="22" /></a>
-        </div>
+        <a href="https://github.com/vitorva/vscode-uon" class="link">
+            <div class="btn">
+                <img alt="Vue logo" class="logo-project" src="@/assets/gitlab.svg" width="20" height="20" />
+                <span>View repository</span>
+            </div>
+        </a>
+
+        <a href="https://marketplace.visualstudio.com/items?itemName=vitorva.vscode-uon" class="link">
+            <div class="btn">
+                <img alt="Vue logo" class="logo-project" src="@/assets/vscode.svg" width="20" height="20" />
+                <span>View Marketplace</span>
+            </div>
+        </a>
+
     </div>
 </template>

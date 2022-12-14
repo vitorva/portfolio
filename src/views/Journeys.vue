@@ -8,25 +8,58 @@
         <p class="technos"><a>MapLibre · &nbspReact · &nbspMaterial UI · &nbspSpring Boot · &nbspMaven · &nbspNeo4j
                 · &nbspGCP · &nbspCI / CD</a></p>
 
-        <div>
-            <a class="link" href="https://gitlab.com/pdg-journeys/journeys"><img alt="Vue logo" class="logo"
-                    src="@/assets/gitlab.svg" width="25" height="25" /></a>
-            <a class="link" href="http://46.101.222.19"><img alt="Vue logo" class="logo" src="@/assets/links.svg"
-                    width="25" height="25" /></a>
-        </div>
+        <a href="https://gitlab.com/pdg-journeys/journeys" class="link">
+            <div class="btn">
+                <img alt="Vue logo" class="logo-project" src="@/assets/gitlab.svg" width="20" height="20" />
+                <span>View repository</span>
+            </div>
+        </a>
+
+        <a href="http://46.101.222.19" class="link">
+            <div class="btn">
+                <img alt="Vue logo" class="logo-project" src="@/assets/links.svg" width="20" height="20" />
+                <span>View Website</span>
+            </div>
+        </a>
+
     </div>
-
-
 </template>
 
 <style>
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    /* Align vertical */
+    vertical-align: middle;
+    color: #696969;
+    background-color: #f0f0f0;
+    border: solid 1px;
+    font-size: small;
+    max-width: 150px;
+    padding: 5px
+}
+
+.logo-project {
+    margin-right: 20px;
+    margin-right: 5px;
+}
+
 .link {
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.logo:hover {
-    filter: invert(65%) sepia(32%) saturate(0%) hue-rotate(253deg) brightness(97%) contrast(89%);
+.btn:hover {
+    filter: invert(30%) sepia(50%) saturate(0%) hue-rotate(253deg) brightness(97%) contrast(89%);
 }
 
 

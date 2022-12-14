@@ -7,9 +7,13 @@
             2019/2020.</p>
 
         <p class="technos"><a>React · &nbspBootstrap · &nbspJavascript · &nbspSpring Boot · &nbspJava</a></p>
-        <div>
-            <a class="link" href="https://github.com/Double-i/HEIGVD-PRO-B-05"><img alt="Vue logo" class="logo"
-                    src="@/assets/github.svg" width="25" height="25" /></a>
-        </div>
+
+        <a href="https://github.com/vitorva/EasyToolz" class="link">
+            <div class="btn">
+                <img alt="Vue logo" class="logo-project" src="@/assets/github.svg" width="20" height="20" />
+                <span>View repository</span>
+            </div>
+        </a>
+
     </div>
 </template>
