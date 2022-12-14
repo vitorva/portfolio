@@ -69,7 +69,17 @@ a:active {
 
 a:hover {
   color: rgb(107, 107, 107);
+  /* #6B6B6B */
 }
+
+/*
+https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css
+https://codepen.io/sosuke/pen/Pjoqqp 
+*/
+.logo:hover {
+  filter: invert(65%) sepia(32%) saturate(0%) hue-rotate(253deg) brightness(97%) contrast(89%);
+}
+
 
 header {
   display: flex;

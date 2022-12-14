@@ -25,10 +25,14 @@
     margin-right: 10px;
 }
 
+.logo:hover {
+    filter: invert(65%) sepia(32%) saturate(0%) hue-rotate(253deg) brightness(97%) contrast(89%);
+}
+
+
 .project {
-    margin-left: 10px;
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     padding-left: 10px;
     /*border-left: solid #d9d9d9b2;*/
     background-color: #3b4252;
