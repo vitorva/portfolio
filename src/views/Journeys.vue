@@ -15,7 +15,7 @@
             </div>
         </a>
 
-        <a href="http://46.101.222.19" class="link">
+        <a href="http://www.myjourneys.xyz" class="link">
             <div class="btn">
                 <img alt="Vue logo" class="logo-project" src="@/assets/links.svg" width="20" height="20" />
                 <span>View Website</span>
