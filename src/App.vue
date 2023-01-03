@@ -35,14 +35,17 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Projects</h1>
 
       <div class="project-title">
-        <RouterLink to="/journeys">
-          <p>Journeys</p>
+        <RouterLink to="/vareddit">
+          <p>Vareddit</p>
+        </RouterLink>
+        <RouterLink to="/songify">
+          <p>Songify</p>
         </RouterLink>
         <RouterLink to="/uon-vs-code">
           <p>UON VSCode</p>
         </RouterLink>
-        <RouterLink to="/songify">
-          <p>Songify</p>
+        <RouterLink to="/journeys">
+          <p>Journeys</p>
         </RouterLink>
         <RouterLink to="/easy-toolz">
           <p>EasyToolz</p>
