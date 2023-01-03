@@ -2,9 +2,9 @@
     <h1>Vareddit</h1>
 
     <div class="project">
-        <p> <b>[WORK IN PROGRESS]</b>  It's a fullstack forum website to publish and comment posts.  </p>
+        <p> <b>[WORK IN PROGRESS]</b>  A forum website to publish and comment posts.  </p>
 
-        <p class="technos"><a>Typescript · &nbspGraphql · &nbspUrql · &nbspPostgress · &nbspMikroORM · &nbspVue · &nbspVuetify</a></p>
+        <p class="technos"><a>Typescript · &nbspGraphql · &nbspUrql · &nbspPostgress · &nbspMikroORM · &nbspVue3 · &nbspVuetify</a></p>
 
         <a href="https://github.com/vitorva/vareddit" class="link">
             <div class="btn">

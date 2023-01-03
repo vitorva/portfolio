@@ -2,7 +2,7 @@
     <h1>Songify</h1>
 
     <div class="project">
-        <p>It's a Spotify-like web app using the SoundCloud API.</p>
+        <p>A Spotify-like web app using the SoundCloud API.</p>
 
         <p class="technos"><a>Vue3 · &nbspVuex · &nbspExpress · &nbspSoundCloud API · &nbspDocker</a></p>
 
