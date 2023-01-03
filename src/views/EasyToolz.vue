@@ -8,7 +8,7 @@
 
         <p class="technos"><a>React · &nbspBootstrap · &nbspJavascript · &nbspSpring Boot · &nbspJava</a></p>
 
-        <a href="https://github.com/vitorva/EasyToolz" class="link">
+        <a target="_blank" href="https://github.com/vitorva/EasyToolz" class="link">
             <div class="btn">
                 <img alt="Vue logo" class="logo-project" src="@/assets/github.svg" width="20" height="20" />
                 <span>View repository</span>
