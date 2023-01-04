@@ -2,9 +2,9 @@
     <h1>UON VSCode</h1>
 
     <div class="project">
-        <p>An extension that provides support for the UON serialization languag in VSCode.</p>
+        <p>An extension that provides support for the UON serialization language in VSCode.</p>
 
-        <p>This extension was made during my Bachelor's project. &nbspThe project received a rating of <b>5.4 / 6</b>
+        <p>This extension was made during my Bachelor's project. &nbspThe project received a rating of <b>5.4 / 6.</b>
         </p>
 
         <p class="technos"><a>VS Code · &nbspAPI · &nbspANTLR · &nbspTypescript · &nbspMocha · &nbspCI / CD</a></p>

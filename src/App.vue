@@ -95,7 +95,7 @@ header {
 }
 
 .content {
-  margin-top: 80px;
+  margin-top: 3%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -114,7 +114,7 @@ footer {
 
 .box-top {
   padding-left: 10px;
-  height: 300px;
+  height: 310px;
 }
 
 .box-bottom {

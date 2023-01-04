@@ -7,6 +7,6 @@
   <p>I have always been passionate about technology and development. My favorite field is web development.</p>
 
   <p>
-    You'll find here, some of my projects on which I worked.
+    You will find here some of my projects.
   </p>
 </template>

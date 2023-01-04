@@ -3,8 +3,7 @@
     <div class="project">
         <p>An web application made for trip creation using points of interest around Switzerland. </p>
 
-        <p>This project was developed in a team of 5 students as a semester project (PDG) at HEIG-VD, academic year
-            2021/2022. The project received a rating of <b>5.6 / 6</b></p>
+        <p>This project was developed in a team of 5 students as a semester project (PDG) at HEIG-VD. &nbspIt received a rating of <b>5.6 / 6</b>.</p>
 
         <p class="technos"><a>MapLibre · &nbspReact · &nbspMaterial UI · &nbspSpring Boot · &nbspMaven · &nbspNeo4j
                 · &nbspGCP · &nbspCI / CD</a></p>
