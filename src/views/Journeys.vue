@@ -1,21 +1,21 @@
 <template>
     <h1>Journeys</h1>
     <div class="project">
-        <p>Journeys is a web application made for trip creation using points of interest around Switzerland. </p>
+        <p>An web application made for trip creation using points of interest around Switzerland. </p>
 
-        <p>It was a team project made in school.</p>
+        <p>This project was developed in a team of 5 students as a semester project (PDG) at HEIG-VD. &nbspIt received a rating of <b>5.6 / 6</b>.</p>
 
         <p class="technos"><a>MapLibre · &nbspReact · &nbspMaterial UI · &nbspSpring Boot · &nbspMaven · &nbspNeo4j
                 · &nbspGCP · &nbspCI / CD</a></p>
 
-        <a href="https://gitlab.com/pdg-journeys/journeys" class="link">
+        <a target="_blank" href="https://gitlab.com/pdg-journeys/journeys" class="link">
             <div class="btn">
                 <img alt="Vue logo" class="logo-project" src="@/assets/gitlab.svg" width="20" height="20" />
                 <span>View repository</span>
             </div>
         </a>
 
-        <a href="http://www.myjourneys.xyz" class="link">
+        <a target="_blank" href="http://www.myjourneys.xyz" class="link">
             <div class="btn">
                 <img alt="Vue logo" class="logo-project" src="@/assets/links.svg" width="20" height="20" />
                 <span>View Website</span>

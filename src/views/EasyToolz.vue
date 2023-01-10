@@ -1,14 +1,13 @@
 <template>
     <h1>EasyToolz</h1>
     <div class="project">
-        <p>An application for sharing unused objects troughout switzerland.</p>
+        <p>An web application for sharing unused objects troughout switzerland.</p>
 
-        <p>This software was developed in a team of 6 students as a semester project (PRO) at HEIG-VD, academic year
-            2019/2020.</p>
+        <p>This project was developed in a team of 6 students as a semester project (PRO) at HEIG-VD. &nbspIt received a rating of <b>5.5 / 6.</b></p>
 
         <p class="technos"><a>React · &nbspBootstrap · &nbspJavascript · &nbspSpring Boot · &nbspJava</a></p>
 
-        <a href="https://github.com/vitorva/EasyToolz" class="link">
+        <a target="_blank" href="https://github.com/vitorva/EasyToolz" class="link">
             <div class="btn">
                 <img alt="Vue logo" class="logo-project" src="@/assets/github.svg" width="20" height="20" />
                 <span>View repository</span>

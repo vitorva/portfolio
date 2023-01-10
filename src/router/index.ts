@@ -5,6 +5,7 @@ import Songify from "../views/Songify.vue";
 import UON from "../views/Uon.vue";
 import Journeys from "../views/Journeys.vue";
 import RestApi from "../views/RestApi.vue";
+import Vareddit from "../views/Vareddit.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -37,9 +38,9 @@ const router = createRouter({
       component: Journeys,
     },
     {
-      path: "/restApi",
-      name: "restApi",
-      component: RestApi,
+      path: "/vareddit",
+      name: "vareddit",
+      component: Vareddit,
     },
   ],
 });

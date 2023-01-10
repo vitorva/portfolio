@@ -10,16 +10,16 @@ import { RouterLink, RouterView } from 'vue-router'
     <div>
 
 
-      <a href="CV_VitorVazAfonso.pdf"><img alt="Vue logo" class="logo" src="@/assets/cv.svg" width="30"
+      <a target="_blank" href="CV_VitorVazAfonso.pdf"><img alt="Vue logo" class="logo" src="@/assets/cv.svg" width="30"
           height="30" /></a>
 
-      <a href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"><img alt="Vue logo" class="logo"
+      <a target="_blank" href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"><img alt="Vue logo" class="logo"
           src="@/assets/linkedin.svg" width="30" height="30" /></a>
 
       <a href="mailto: vitor.vazafonso@gmail.com"><img alt="Vue logo" class="logo" src="@/assets/mail.svg" width="30"
           height="30" /></a>
 
-      <a href="https://github.com/vitorva"><img alt="Vue logo" class="logo" src="@/assets/github.svg" width="30"
+      <a target="_blank" href="https://github.com/vitorva"><img alt="Vue logo" class="logo" src="@/assets/github.svg" width="30"
           height="30" /></a>
 
     </div>
@@ -35,14 +35,17 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Projects</h1>
 
       <div class="project-title">
-        <RouterLink to="/journeys">
-          <p>Journeys</p>
+        <RouterLink to="/vareddit">
+          <p>Vareddit</p>
+        </RouterLink>
+        <RouterLink to="/songify">
+          <p>Songify</p>
         </RouterLink>
         <RouterLink to="/uon-vs-code">
           <p>UON VSCode</p>
         </RouterLink>
-        <RouterLink to="/songify">
-          <p>Songify</p>
+        <RouterLink to="/journeys">
+          <p>Journeys</p>
         </RouterLink>
         <RouterLink to="/easy-toolz">
           <p>EasyToolz</p>
@@ -92,7 +95,7 @@ header {
 }
 
 .content {
-  margin-top: 80px;
+  margin-top: 3%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -111,7 +114,7 @@ footer {
 
 .box-top {
   padding-left: 10px;
-  height: 300px;
+  height: 310px;
 }
 
 .box-bottom {
