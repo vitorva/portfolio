@@ -19,8 +19,8 @@ import { RouterLink, RouterView } from 'vue-router'
       <a href="mailto: vitor.vazafonso@gmail.com"><img alt="Vue logo" class="logo" src="@/assets/mail.svg" width="30"
           height="30" /></a>
 
-      <a target="_blank" href="https://github.com/vitorva"><img alt="Vue logo" class="logo" src="@/assets/github.svg" width="30"
-          height="30" /></a>
+      <a target="_blank" href="https://github.com/vitorva"><img alt="Vue logo" class="logo" src="@/assets/github.svg"
+          width="30" height="30" /></a>
 
     </div>
   </header>
@@ -35,17 +35,20 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Projects</h1>
 
       <div class="project-title">
-        <RouterLink to="/vareddit">
-          <p>Vareddit</p>
+        <RouterLink to="/journeys">
+          <p>Journeys</p>
         </RouterLink>
         <RouterLink to="/songify">
           <p>Songify</p>
         </RouterLink>
+        <RouterLink to="/infogames">
+          <p>Infogames</p>
+        </RouterLink>
+        <RouterLink to="/vareddit">
+          <p>Vareddit</p>
+        </RouterLink>
         <RouterLink to="/uon-vs-code">
           <p>UON VSCode</p>
-        </RouterLink>
-        <RouterLink to="/journeys">
-          <p>Journeys</p>
         </RouterLink>
         <RouterLink to="/easy-toolz">
           <p>EasyToolz</p>

@@ -6,6 +6,7 @@ import UON from "../views/Uon.vue";
 import Journeys from "../views/Journeys.vue";
 import RestApi from "../views/RestApi.vue";
 import Vareddit from "../views/Vareddit.vue";
+import Infogames from "../views/Infogames.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -41,6 +42,11 @@ const router = createRouter({
       path: "/vareddit",
       name: "vareddit",
       component: Vareddit,
+    },
+    {
+      path: "/infogames",
+      name: "infogames",
+      component: Infogames,
     },
   ],
 });
