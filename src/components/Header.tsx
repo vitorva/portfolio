@@ -1,15 +1,17 @@
-function Header() {
+import React, { useRef } from 'react';
 
-  return (<div className="header">
-  <nav>
-      <ul>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-      </ul>
-    </nav>
-  </div>)
+interface HeaderProps {
+  scrollToHome: () => void;
+  scrollToProjects: () => void;
+}
 
+function Header({ scrollToHome, scrollToProjects }: HeaderProps) {
+  return (
+    <header>
+      <button onClick={scrollToHome}>Home</button>
+      <button onClick={scrollToProjects}>Projects</button>
+    </header>
+  );
 }
 
 export default Header;
