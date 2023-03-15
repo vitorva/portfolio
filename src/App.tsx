@@ -10,6 +10,9 @@ function App() {
 
   const homeRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
+  const skillsRef = useRef<HTMLDivElement>(null);
+  const aboutMeRef = useRef<HTMLDivElement>(null);
+
 
   const scrollToHome = () => {
     if (homeRef.current) {
@@ -23,18 +26,32 @@ function App() {
     }
   };
 
+  const scrollToSkills = () => {
+    if (skillsRef.current) {
+      skillsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToAboutMe = () => {
+    if (aboutMeRef.current) {
+      aboutMeRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
 
   return (
     <>
         <Header
         scrollToHome={scrollToHome}
         scrollToProjects={scrollToProjects}
+        scrollToSkills={scrollToSkills}
+        scrollToAboutMe={scrollToAboutMe}
       />
       <div className="App">
-          <Home/>
+          <Home homeRef = {homeRef}/>
           <Projects projectsRef = {projectsRef}/>
-          <Skills/>
-          <AboutMe/>
+          <Skills skillsRef = {skillsRef}/>
+          <AboutMe aboutMeRef = {aboutMeRef}/>
       </div>
     </>
   );

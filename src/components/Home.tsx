@@ -1,7 +1,12 @@
-function Home() {
+interface HomeProps {
+    homeRef: React.RefObject<HTMLDivElement>;
+}
 
-    return (<div className="home">Home</div>)
+function Home({homeRef} : HomeProps) {
 
+    return (<div ref ={homeRef} style={{ scrollMarginTop: '10vh' }} className="home">
+        <p>HOME</p>
+    </div>)
 }
 
 export default Home;
