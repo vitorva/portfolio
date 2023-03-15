@@ -1,20 +1,31 @@
-#root {
-    height: 100%;
-}
-
 .App {
-    height: 100%;
     background-color: red;
-}
-
-.main {
-    padding-top: 100px;
-    height: 100%;
+    margin-top: 10vh;
     display: flex;
-    background-color: green;
+    flex-flow: column wrap;
 }
 
-.home {
-    background-color: blue;
+
+.home, .projects, .skills, .aboutMe   {
+    height: 100vh; /*Relative to 1% of the height of the viewport  https://www.w3schools.com/cssref/css_units.php  */
+}
+
+.home, .skills  {
+    background-color: orange;
+}
+
+.projects, .aboutMe   {
+    background-color: blue;;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: green;
+
+
 }
 
