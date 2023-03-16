@@ -1,31 +1,54 @@
 .App {
-    background-color: red;
     margin-top: 10vh;
-    display: flex;
     flex-flow: column wrap;
 }
 
+.contact, .projects, .skills, .aboutMe   {
+    /*border-style: solid;*/
+}
 
-.home, .projects, .skills, .aboutMe   {
+
+.contact, .skills, .aboutMe   {
     height: 100vh; /*Relative to 1% of the height of the viewport  https://www.w3schools.com/cssref/css_units.php  */
 }
 
-.home, .skills  {
-    background-color: orange;
+.projects {
+    height: 200vh;
+}
+
+.contact, .skills  {
+    background-color: rgb(52, 53, 65);
 }
 
 .projects, .aboutMe   {
-    background-color: rgb(112, 112, 224);;
+    background-color: rgb(68, 70, 84);
+}
+
+.inner {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
 }
 
 header {
+    display: flex;
     position: fixed;
+    justify-content: center;
     top: 0;
     height: 10vh;
     width: 100%;
     position: fixed;
-    background-color: green;
-
-
+    background-color: rgb(32, 33, 35,0.5);
 }
 
+button {
+    font-size: 1.5em ;
+    border: inherit;
+    background: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.profile {
+    border-radius: 100%;
+}

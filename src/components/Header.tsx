@@ -1,19 +1,21 @@
 import React, { useRef } from 'react';
 
 interface HeaderProps {
-  scrollToHome: () => void;
+  scrollToContact: () => void;
   scrollToProjects: () => void;
   scrollToSkills: () => void;
   scrollToAboutMe: () => void;
 }
 
-function Header({ scrollToHome, scrollToProjects, scrollToSkills, scrollToAboutMe }: HeaderProps) {
+function Header({ scrollToContact, scrollToProjects, scrollToSkills, scrollToAboutMe }: HeaderProps) {
   return (
     <header>
-      <button onClick={scrollToHome}>Home</button>
+      <nav className='inner'>
+      <button onClick={scrollToContact}>Contact</button>
       <button onClick={scrollToProjects}>Projects</button>
       <button onClick={scrollToSkills}>Skills</button>
       <button onClick={scrollToAboutMe}>About Me</button>
+      </nav>
     </header>
   );
 }

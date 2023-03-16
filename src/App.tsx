@@ -1,22 +1,22 @@
 import React, { useRef } from 'react';
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
+import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
 
 function App() {
 
-  const homeRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
   const skillsRef = useRef<HTMLDivElement>(null);
   const aboutMeRef = useRef<HTMLDivElement>(null);
 
 
-  const scrollToHome = () => {
-    if (homeRef.current) {
-      homeRef.current.scrollIntoView({ behavior: 'smooth' });
+  const scrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -42,13 +42,13 @@ function App() {
   return (
     <>
         <Header
-        scrollToHome={scrollToHome}
+        scrollToContact={scrollToContact}
         scrollToProjects={scrollToProjects}
         scrollToSkills={scrollToSkills}
         scrollToAboutMe={scrollToAboutMe}
       />
       <div className="App">
-          <Home homeRef = {homeRef}/>
+          <Contact contactRef = {contactRef}/>
           <Projects projectsRef = {projectsRef}/>
           <Skills skillsRef = {skillsRef}/>
           <AboutMe aboutMeRef = {aboutMeRef}/>
