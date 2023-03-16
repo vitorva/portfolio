@@ -1,10 +1,11 @@
 h1 {
     padding-top: 1vh;
     padding-left: 2vh;
-    margin: 0%;
+    text-align: center;
 }
 
 h2 {
+    margin: 0%;
     padding-top: 2vh;
     padding-left: 4vh;
 }
@@ -26,7 +27,7 @@ a:active {
     color: #696969;
     background-color: #f0f0f0;
     border: solid 1px;
-    font-size: small;
+    font-size: medium;
     max-width: 150px;
     padding: 5px
 }
@@ -49,19 +50,26 @@ a:active {
 
 .project {
     margin: auto;
+    margin-top: 4vh;
     margin-bottom: 8vh;
     max-width: 80%;
     padding-top: 2px;
     padding-bottom: 10px;
     padding-left: 10px;
-    background-color: #3b4252;
+    background-color: white;
     box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
-    color: #d8dee9;
-    border-radius: 10px;
     transition: opacity 500ms;
 }
 
 .technos {
     font-style: italic;
-    color: #d9d9d9b2;
+    color: #575555e8;
+}
+
+@media (min-width: 1024px) {
+
+    .project {
+        width: 60%;
+    }
+
 }

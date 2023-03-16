@@ -193,22 +193,6 @@ function Projects({ projectsRef }: ProjectsProps) {
           </div>
         </a>
       </div>
-
-      <h2>
-        You can find more projects on my github
-        <div className="info">
-          <img
-            alt="Github"
-            className="logo"
-            src={github}
-            width="50"
-            height="50"
-          />
-          <a target="_blank" href="https://github.com/vitorva">
-            vitorva
-          </a>
-        </div>
-      </h2>
     </div>
   );
 }
