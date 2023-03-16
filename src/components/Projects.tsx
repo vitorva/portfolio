@@ -195,7 +195,7 @@ function Projects({ projectsRef }: ProjectsProps) {
       </div>
 
       <h2>
-        You can find more project on my github
+        You can find more projects on my github
         <div className="info">
           <img
             alt="Github"

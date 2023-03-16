@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./App.css";
 import "./Projects.css";
+import "./About.css";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
