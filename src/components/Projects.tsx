@@ -192,7 +192,7 @@ function Projects({ projectsRef }: ProjectsProps) {
           </a>
         </div>
 
-        <div className="info">
+        <div className="info3">
           <a
             className="info2"
             target="_blank"

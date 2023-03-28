@@ -3,7 +3,7 @@
 }
 
 .myFlex {
-    height: inherit;
+    height: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -53,9 +53,16 @@
 }
 
 .info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info3{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 a{
@@ -143,6 +150,11 @@ button {
 
     .projects {
         height: 190vh;
+    }
+
+    .skill{
+        width: 40%;
+        box-shadow: none
     }
     
     
