@@ -2,7 +2,7 @@ import linkedin from "../assets/linkedin.svg";
 import cv from "../assets/cv.svg";
 import github from "../assets/github.svg";
 import mail from "../assets/mail.svg";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 
 interface ContactProps {
   contactRef: React.RefObject<HTMLDivElement>;

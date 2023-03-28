@@ -198,7 +198,7 @@ function Projects({ projectsRef }: ProjectsProps) {
             target="_blank"
             href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"
           >
-            More project on my github
+            More projects on my github
             <img alt="github" src={github} width="30" height="30" />
           </a>
         </div>
