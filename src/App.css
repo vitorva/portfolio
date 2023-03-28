@@ -2,6 +2,14 @@
     flex-flow: column wrap;
 }
 
+.myFlex {
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around
+}
+
 .contact {
     display:flex
 }
@@ -44,6 +52,12 @@
     margin : 10px
 }
 
+.info2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 a{
     border: inherit;
     background: inherit;
@@ -60,8 +74,9 @@ a{
     height: 100vh; /*Relative to 1% of the height of the viewport  https://www.w3schools.com/cssref/css_units.php  */
 }
 
+
 .projects {
-    height: 230vh;
+    height: 170vh;
 }
 
 .contact, .skills  {
@@ -86,7 +101,7 @@ header {
     height: 10vh;
     width: 100%;
     position: fixed;
-    background-color: rgb(32, 33, 35, 0.6);
+    background-color: rgb(32, 33, 35);
 }
 
 button {
@@ -106,6 +121,23 @@ button {
     margin: 0%;
     width: 100%;
 }
+
+.mySkills{
+    height : 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+.skill{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+}
+
 
 @media (min-width: 1024px) {
 
