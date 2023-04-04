@@ -41,9 +41,9 @@ function Skills({ skillsRef }: SkillsProps) {
           <p>
             {" "}
             I acquired skills in many other technology-related fields.
-            Specifically, I have focused on machine learning, natural language
-            processing, mobile application development, cloud infrastructure and
-            Devops. Furthermore, I also learned AGILE methods and how to work in
+            Specifically, I have focused on machine learning, network, security,
+            mobile application development, cloud infrastructure and DevOps.
+            Furthermore, I also learned agile methods and how to work in
             collaboration through many group projects.
           </p>
         </div>

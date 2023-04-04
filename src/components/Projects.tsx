@@ -28,7 +28,7 @@ function Projects({ projectsRef }: ProjectsProps) {
 
           <p>
             This extension was made during my Bachelor's project. The project
-            received a rating of <b>5.4 / 6.</b>
+            received a rating of <b>5.5 / 6.</b>
           </p>
 
           <p className="technos">
