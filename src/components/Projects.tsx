@@ -196,7 +196,7 @@ function Projects({ projectsRef }: ProjectsProps) {
           <a
             className="info2"
             target="_blank"
-            href="https://www.linkedin.com/in/vitor-vaz-afonso-6770241b4"
+            href="https://github.com/vitorva"
           >
             More projects on my github
             <img alt="github" src={github} width="30" height="30" />
