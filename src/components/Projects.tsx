@@ -17,8 +17,89 @@ function Projects({ projectsRef }: ProjectsProps) {
       className="projects"
     >
       <h1>Projects</h1>
-
       <div className="myFlex">
+        <div className="project">
+          <h2>Workout generator</h2>
+          <p>
+            {" "}
+            A workout generator app using the the OpenAI Chat API. It's built
+            with the Next.js framework. API.
+          </p>
+
+          <p className="technos">
+            <a>React · Next.js · ChatGPT API</a>
+          </p>
+
+          <a
+            target="_blank"
+            href="https://github.com/vitorva/workout-generator"
+            className="link"
+          >
+            <div className="btn">
+              <img
+                alt="Vue logo"
+                className="logo-project"
+                src={github}
+                width="20"
+                height="20"
+              />
+              <span>View repository</span>
+            </div>
+          </a>
+
+          <a target="_blank" href="http://46.101.222.19:3001" className="link">
+            <div className="btn">
+              <img
+                alt="Vue logo"
+                className="logo-project"
+                src={links}
+                width="20"
+                height="20"
+              />
+              <span>View Website</span>
+            </div>
+          </a>
+        </div>
+
+        <div className="project">
+          <h2>Songify</h2>
+          <p>A Spotify-like web app using the SoundCloud API.</p>
+
+          <p className="technos">
+            <a>Vue3 · Vuex · Express · SoundCloud API · Docker</a>
+          </p>
+
+          <a
+            target="_blank"
+            href="https://github.com/vitorva/songify"
+            className="link"
+          >
+            <div className="btn">
+              <img
+                alt="Vue logo"
+                className="logo-project"
+                src={github}
+                width="20"
+                height="20"
+              />
+              <span>View repository</span>
+            </div>
+          </a>
+
+          <a target="_blank" href="http://46.101.222.19:8888" className="link">
+            <div className="btn">
+              <img
+                alt="Vue logo"
+                className="logo-project"
+                src={links}
+                width="20"
+                height="20"
+              />
+              <span>View Website</span>
+            </div>
+          </a>
+        </div>
+
         <div className="project">
           <h2>UON VSCode</h2>
           <p>
@@ -120,7 +201,8 @@ function Projects({ projectsRef }: ProjectsProps) {
           </a>
         </div>
 
-        <div className="project">
+        {/*
+                <div className="project">
           <h2>EasyToolz</h2>
           <p>
             An web application for sharing unused objects troughout switzerland.
@@ -152,45 +234,7 @@ function Projects({ projectsRef }: ProjectsProps) {
             </div>
           </a>
         </div>
-
-        <div className="project">
-          <h2>Songify</h2>
-          <p>A Spotify-like web app using the SoundCloud API.</p>
-
-          <p className="technos">
-            <a>Vue3 · Vuex · Express · SoundCloud API · Docker</a>
-          </p>
-
-          <a
-            target="_blank"
-            href="https://github.com/vitorva/songify"
-            className="link"
-          >
-            <div className="btn">
-              <img
-                alt="Vue logo"
-                className="logo-project"
-                src={github}
-                width="20"
-                height="20"
-              />
-              <span>View repository</span>
-            </div>
-          </a>
-
-          <a target="_blank" href="http://46.101.222.19:8888" className="link">
-            <div className="btn">
-              <img
-                alt="Vue logo"
-                className="logo-project"
-                src={links}
-                width="20"
-                height="20"
-              />
-              <span>View Website</span>
-            </div>
-          </a>
-        </div>
+        */}
 
         <div className="info3">
           <a

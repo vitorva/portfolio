@@ -55,13 +55,6 @@ function Contact({ contactRef }: ContactProps) {
             </div>
 
             <div className="info">
-              <img alt="CV" className="logo" src={cv} width="30" height="30" />
-              <a target="_blank" href="CV_VitorVazAfonso.pdf">
-                My resume
-              </a>
-            </div>
-
-            <div className="info">
               <img
                 alt="Github"
                 className="logo"
